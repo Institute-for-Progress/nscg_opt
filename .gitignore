@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# R session / project cruft
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Derived / intermediate data
+*.rds
+
+# Raw NSCG microdata formats too large for GitHub (>100 MB each).
+# These are NOT tracked here — download them from NCSES (see README.md).
+# The CSV is stored gzipped (epcg23.csv.gz) instead of raw.
+data/pcg23Public/epcg23.csv
+data/pcg23Public/EPCG23.DAT
+data/pcg23Public/epcg23.sas7bdat
